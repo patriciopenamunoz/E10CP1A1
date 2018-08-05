@@ -47,3 +47,7 @@ class Student
     @@quantity
   end
 end
+s = [['A', 6, 3], ['B', 2, 5], ['C', 5, 5], ['D', 3, 7], ['F', 4, 1],
+     ['G', 2, 6], ['H', 6, 7], ['I', 3, 1], ['J', 6, 1], ['K', 4, 5]]
+s.each { |e| Student.new(*e).result }
+Student.student_quantity

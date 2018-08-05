@@ -16,3 +16,9 @@
 ## Crear 10 objetos de la clase Student y utilizar los métodos creados para
 #  saber si los alumnos están aprobados o no y, finalmente, mostrar el total
 #  de alumnos creados.
+
+class Student
+  def initialize(name, score1 = 4, score2 = 4)
+
+  end
+end

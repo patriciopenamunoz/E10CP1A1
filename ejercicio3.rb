@@ -25,7 +25,12 @@ class Vehicle
 end
 
 class Car < Vehicle
+  @@instances = 0
   def initialize(model, year)
     super
+    @@instances += 1
+  end
+  def self.instances
+    @@instances
   end
 end

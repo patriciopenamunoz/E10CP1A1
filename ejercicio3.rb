@@ -35,3 +35,5 @@ class Car < Vehicle
     @@instances
   end
 end
+
+10.times { Car.new('Nissan', 1994) }

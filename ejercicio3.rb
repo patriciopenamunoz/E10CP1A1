@@ -37,3 +37,5 @@ class Car < Vehicle
 end
 
 10.times { Car.new('Nissan', 1994) }
+
+puts "The Car class has been instanced #{Car.instances} times."

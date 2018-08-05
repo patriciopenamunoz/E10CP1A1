@@ -3,13 +3,13 @@
 ## La última instrucción debe imprimir "Hola! Soy la clase MiClase"
 
 class MiClase
-    attr_writer :name
+    attr_accessor :name
     def initialize(name)
         @name = name
     end
 
     def self.saludar
-        "Hola! Soy la clase #{@name}"
+        "Hola! Soy la clase #{self}"
     end
 end
 

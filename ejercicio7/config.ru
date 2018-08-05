@@ -11,7 +11,7 @@ require 'rack'
 
 class MiPrimeraWebApp
  def call(env)
-  [000, {}, []]
+  [200, {'Content-Type' => 'text/html'}, []]
  end
 end
 

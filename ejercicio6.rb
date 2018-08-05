@@ -18,7 +18,8 @@
 #  de alumnos creados.
 
 class Student
+  @@quantity = 0
   def initialize(name, score1 = 4, score2 = 4)
-
+    @@quantity += 1
   end
 end

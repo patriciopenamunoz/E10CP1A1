@@ -24,6 +24,12 @@ module Test
   end
 end
 
+module Attendance
+  def student_quantity
+    puts "Number of students: #{quantity}"
+  end
+end
+
 class Student
   @@quantity = 0
   def initialize(name, score1 = 4, score2 = 4)

@@ -23,3 +23,9 @@ class Vehicle
     @start = true
   end
 end
+
+class Car < Vehicle
+  def initialize
+
+  end
+end

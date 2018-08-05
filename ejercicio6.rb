@@ -17,6 +17,13 @@
 #  saber si los alumnos están aprobados o no y, finalmente, mostrar el total
 #  de alumnos creados.
 
+module Test
+  def result
+    average = (score1 + score2) / 2.0
+    puts average > 4 ? 'Estudiante aprobado' : 'Estudiante reprobado'
+  end
+end
+
 class Student
   @@quantity = 0
   def initialize(name, score1 = 4, score2 = 4)

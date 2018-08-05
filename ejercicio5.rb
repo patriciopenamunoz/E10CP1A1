@@ -1,15 +1,16 @@
-# Transformar la clase Herviboro en un módulo. Implementar el módulo en
-# la clase Conejo mediante Mixin para poder acceder al método dieta desde la
-# instancia. Finalmente imprimir la definición de Hervíboro.
+## Transformar la clase Herviboro en un módulo.
+## Implementar el módulo en la clase Conejo mediante Mixin para poder acceder
+#  al método dieta desde la instancia.
+## Finalmente imprimir la definición de Hervíboro.
 
-class Herviboro
-  @@definir = 'Sólo me alimento de vegetales!'
+module Herviboro
+  DEFINIR = 'Sólo me alimento de vegetales!'
 
   def self.definir
-    @@definir
+    DEFINIR
   end
 
-  def dieta
+  def self.dieta
     "Soy un Herviboro!"
   end
 end

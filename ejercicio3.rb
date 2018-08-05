@@ -21,6 +21,7 @@ class Vehicle
 
   def engine_start
     @start = true
+    puts 'El motor se ha encendido!'
   end
 end
 

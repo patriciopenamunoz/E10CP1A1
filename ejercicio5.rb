@@ -35,3 +35,10 @@ puts Herviboro.definir
 
 # Pregunta: ¿Por qué es mejor solución la implementación de Mixin que
 #            mediante Herencia de Herencia?
+
+#R: Se evita tener que estar ajustando una clase cada vez que se implemente
+#   una herencia nueva dentro de una herencia de herencia debido que
+#   dentro de este paradigma, todas las clases deben estar unidas en cadena
+#   bajo algún criterio que las relacione una con otras.
+#   Además de que Mixin está diseñado para gestionar de forma más cómoda la
+#   implementación de múltiples módulos dentro de una misma clase.

@@ -10,7 +10,7 @@ module Herviboro
     DEFINIR
   end
 
-  def self.dieta
+  def dieta
     "Soy un Herviboro!"
   end
 end
@@ -31,7 +31,7 @@ end
 conejo = Conejo.new('Bugs Bunny')
 conejo.saludar
 conejo.dieta
-Herviboro.definir
+puts Herviboro.definir
 
 # Pregunta: ¿Por qué es mejor solución la implementación de Mixin que
 #            mediante Herencia de Herencia?

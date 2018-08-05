@@ -21,7 +21,8 @@ class Animal
   end
 end
 
-class Conejo < Animal < Herviboro
+class Conejo < Animal
+  include Herviboro
   def initialize(name)
     @name = name
   end

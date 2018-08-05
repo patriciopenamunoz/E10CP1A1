@@ -34,5 +34,8 @@ class Student
   @@quantity = 0
   def initialize(name, score1 = 4, score2 = 4)
     @@quantity += 1
+    @name = name
+    @score1 = score1
+    @score2 = score2
   end
 end

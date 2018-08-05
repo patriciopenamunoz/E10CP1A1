@@ -31,11 +31,19 @@ module Attendance
 end
 
 class Student
+  include Test
+  extend Attendance
+
   @@quantity = 0
   def initialize(name, score1 = 4, score2 = 4)
     @@quantity += 1
     @name = name
     @score1 = score1
     @score2 = score2
+  end
+
+  attr_reader :score1, :score2
+  def self.quantity
+    @@quantity
   end
 end

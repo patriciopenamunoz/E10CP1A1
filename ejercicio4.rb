@@ -1,10 +1,10 @@
 # Transformar la clase Semana en un módulo y obtener la misma salida
 
-class Semana
-  @@primer_dia = 'Lunes'
+module Semana
+  PRIMER_DIA = 'Lunes'
 
   def self.primer_dia
-    @@primer_dia
+    PRIMER_DIA
   end
 
   def self.en_un_meses
@@ -16,6 +16,6 @@ class Semana
   end
 end
 
-puts "La semana comienza el día #{Semana.primer_dia}"
-puts Semana.en_un_meses
-puts Semana.en_un_año
+puts "La semana comienza el día #{Semana::primer_dia}"
+puts Semana::en_un_meses
+puts Semana::en_un_año

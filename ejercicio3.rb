@@ -25,7 +25,7 @@ class Vehicle
 end
 
 class Car < Vehicle
-  def initialize
-
+  def initialize(model, year)
+    super
   end
 end
